@@ -1,0 +1,46 @@
+# Logs & Debugging Matrices
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency Directories (Keeps your repository lightweight)
+node_modules
+/jspm_packages
+
+# Build & Compilation Distribution Directories
+dist
+dist-ssr
+*.mjs
+*.map
+
+# Local Environment Secrets Matrix (CRITICAL: Prevents your Supabase API keys from leaking)
+.env
+.env.local
+.env.*.local
+*.local
+
+# System & OS Specific Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Directories and Project Configuration Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.classpath
+.project
+.settings/
+
+# Optional: Media Testing Artifacts Cache
+# If you save local product photos inside public/ during testing, uncomment below:
+# /public/test-uploads/
